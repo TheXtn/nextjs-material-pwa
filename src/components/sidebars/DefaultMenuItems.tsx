@@ -8,13 +8,10 @@ export function DefaultMenuItems({
   return (
     <>
       <AppMenuItem link={{ href: '/app' }} onClick={onClick}>
-        Home
+        Voucher
       </AppMenuItem>
-      <AppMenuItem link={{ href: '/app/settings' }} onClick={onClick}>
-        Settings
-      </AppMenuItem>
-      <AppMenuItem link={{ href: '/onboarding' }} onClick={onClick}>
-        Onboarding
+      <AppMenuItem link={{ href: '/app/register' }} onClick={onClick}>
+        Register
       </AppMenuItem>
     </>
   )
