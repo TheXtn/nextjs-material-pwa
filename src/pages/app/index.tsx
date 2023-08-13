@@ -1,7 +1,7 @@
 import { Box, Paper, Typography } from '@mui/material'
 import { ShellTitle } from 'components'
 import { AppLayout } from 'components/layout'
-
+import VoucherCard from '../../components/vouchers/card'
 export default function AppIndex() {
   return (
     <>
@@ -12,9 +12,10 @@ export default function AppIndex() {
         </Box>
       </Paper>
       <Paper>
-        <Box p={2}>
-          <Typography component="p">This is Voucher App</Typography>
-        </Box>
+        <VoucherCard />
+        <VoucherCard />
+        <VoucherCard />
+        <VoucherCard />
       </Paper>
     </>
   )
